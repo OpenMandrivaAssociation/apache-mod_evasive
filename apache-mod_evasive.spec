@@ -6,7 +6,7 @@
 Summary:	Evasive Maneuvers Module for the apache web server
 Name:		apache-%{mod_name}
 Version:	1.10.1
-Release:	%mkrel 15
+Release:	%mkrel 16
 Group:		System/Servers
 License:	Apache License
 URL:		http://www.zdziarski.com/projects/mod_evasive/
