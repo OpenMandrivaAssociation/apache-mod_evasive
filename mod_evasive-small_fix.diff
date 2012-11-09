@@ -1,0 +1,20 @@
+--- mod_evasive20.c	2005-10-08 21:01:18.000000000 +0200
++++ mod_evasive20.c.oden	2005-10-09 11:29:01.000000000 +0200
+@@ -38,7 +38,7 @@
+ #include "http_log.h"
+ #include "http_request.h"
+ 
+-module AP_MODULE_DECLARE_DATA evasive20_module;
++module AP_MODULE_DECLARE_DATA evasive_module;
+ 
+ /* BEGIN DoS Evasive Maneuvers Definitions */
+ 
+@@ -686,7 +686,7 @@
+   apr_pool_cleanup_register(p, NULL, apr_pool_cleanup_null, destroy_hit_list);
+ };
+ 
+-module AP_MODULE_DECLARE_DATA evasive20_module =
++module AP_MODULE_DECLARE_DATA evasive_module =
+ {
+     STANDARD20_MODULE_STUFF,
+     NULL,
