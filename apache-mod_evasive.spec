@@ -9,7 +9,7 @@ Version:	1.10.1
 Release:	%mkrel 16
 Group:		System/Servers
 License:	Apache License
-URL:		http://www.zdziarski.com/projects/mod_evasive/
+URL:		https://www.zdziarski.com/projects/mod_evasive/
 Source0: 	http://www.zdziarski.com/projects/mod_evasive/%{mod_name}_%{version}.tar.gz
 Source1:	%{mod_conf}
 Patch0:		mod_evasive-small_fix.diff
